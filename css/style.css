@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* 
+  八幡市ネコの会 CSS
+  作成日： 2021/10/08
+  作成者： Honda
+*/
+/* ----------------------------------------
+    共通 
+  ---------------------------------------- */
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #FFFAF0;
+  color: #222;
+  font-size: 0.875rem;
+}
+
+a {
+  color: #222;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* ----------------------------------------
+    共通 （ラッパー）
+  ---------------------------------------- */
+.outer-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* ----------------------------------------
+    ヘッダー
+  ---------------------------------------- */
+#header {
+  position: fixed;
+  margin: 40px auto;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: red;
+}
+
+#header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header a {
+  display: block;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */
