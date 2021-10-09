@@ -15,6 +15,7 @@ body {
   background-color: #FFFAF0;
   color: #222;
   font-size: 0.875rem;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 a {
@@ -46,9 +47,9 @@ img {
     ヘッダー
   ---------------------------------------- */
 #header {
-  position: fixed;
-  margin: 40px auto;
+  width: 1000px;
   height: 50px;
+  margin: 40px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,10 +59,15 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: red;
+}
+
+#header .logo {
+  width: 100px;
+  height: 50px;
 }
 
 #header ul {
+  padding: 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,12 +79,36 @@ img {
           align-items: center;
 }
 
+#header li {
+  font-size: 1rem;
+  margin-left: 30px;
+}
+
 #header a {
+  color: #CD853F;
   display: block;
 }
 
-.logo {
-  width: 100px;
-  height: 50px;
+.mainvisual {
+  height: 100vh;
+  background-image: url(/img/mainvisual.png);
+  background-size: cover;
+  background-position: center top;
+  margin-bottom: 80px;
+}
+
+.mainvisual .mainvisual-content {
+  text-align: center;
+  color: white;
+  font-family: 'Hiragino Kaku Gothic ProN';
+}
+
+.mainvisual .mainvisual-content .line1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.mainvisual .mainvisual-content .line1 .small {
+  font-size: 2.5rem;
 }
 /*# sourceMappingURL=style.css.map */

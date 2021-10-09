@@ -9,6 +9,13 @@
 /* ----------------------------------------
     共通 
   ---------------------------------------- */
+  // ルール案： ブロックの中身は以下で記述
+  // 基本は要素の上から下に記述
+  // サイズ的なものから
+  // 次にマージンやパディング
+  // 色
+  // margin-bottomは最後（流れ的に）
+
 
 li {
   list-style: none;
@@ -18,6 +25,8 @@ body {
   background-color: #FFFAF0;
   color: #222;
   font-size: 0.875rem;
+  font-family: 'Noto Sans JP', sans-serif;
+  
 }
 
 a {
@@ -49,26 +58,59 @@ img {
   ---------------------------------------- */
 
 #header {
-  position: fixed;
-  margin: 40px auto;
+  width: 1000px;
   height: 50px;
+  margin: 40px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
+  // background-color: red;
+
+  .logo {
+    width: 100px;
+    height: 50px;
+  }
 
   ul {
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
+  li {
+    font-size: 1rem;
+    margin-left: 30px;
+  }
+
   a {
+    color: #CD853F;
     display: block;
   }
 }
 
-.logo {
-  width: 100px;
-  height: 50px;
+.mainvisual {
+  height: 100vh;
+  background-image: url(/img/mainvisual.png);
+  background-size: cover;
+  background-position: center top;
+  margin-bottom: 80px;
+
+  .mainvisual-content {
+    // margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: 'Hiragino Kaku Gothic ProN';
+
+    .line1 {
+      font-size: 3rem;
+      font-weight: bold;
+
+      .small {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+
 }
