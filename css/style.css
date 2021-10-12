@@ -109,7 +109,7 @@ img {
   background-image: url(/img/mainvisual.png);
   background-size: cover;
   background-position: center top;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -119,6 +119,7 @@ img {
 }
 
 .mainvisual .mainvisual-content {
+  width: 700px;
   height: 200px;
   padding-top: 20px;
   display: inline-block;
@@ -146,5 +147,34 @@ img {
 .mainvisual .mainvisual-content .line3 {
   font-size: 2rem;
   font-weight: 600;
+}
+
+.welcome .welcome-title {
+  text-align: center;
+  font-size: 2.375rem;
+  color: #cd853f;
+  margin-bottom: 60px;
+}
+
+.welcome .welcome-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.welcome .welcome-contents .welcome-content {
+  width: 30%;
+}
+
+.welcome .welcome-contents .welcome-content img {
+  margin-bottom: 20px;
+}
+
+.welcome .welcome-contents .welcome-content .text {
+  width: 100%;
+  line-height: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */

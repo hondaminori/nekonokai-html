@@ -107,12 +107,13 @@ img {
   background-image: url(/img/mainvisual.png);
   background-size: cover;
   background-position: center top;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   display: flex;
   justify-content: center;
 
   .mainvisual-content {
     // margin: 0 auto; // justify-content が掛かってるから不要？
+    width: 700px;
     height: 200px;
     padding-top: 20px;
     display: inline-block;
@@ -141,6 +142,29 @@ img {
       font-weight: 600;
     }
   }
+}
 
+.welcome {
+  .welcome-title {
+    text-align: center; // ブロック要素に対して「text」-alignっていいのか？
+    font-size: 2.375rem;
+    color: #cd853f;
+    margin-bottom: 60px;
+  }
 
+  .welcome-contents {
+    display: flex;
+    justify-content: space-between;
+
+    .welcome-content {
+      img {
+        margin-bottom: 20px;
+      }
+      width: 30%;
+      .text {
+        width: 100%;
+        line-height: 1.5rem;
+      }
+    }
+  }
 }
