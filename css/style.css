@@ -44,6 +44,20 @@ img {
 }
 
 /* ----------------------------------------
+    共通 （SNSロゴ）
+  ---------------------------------------- */
+.sns-logos {
+  width: 80px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* ----------------------------------------
     ヘッダー
   ---------------------------------------- */
 #header {
@@ -91,16 +105,28 @@ img {
 
 .mainvisual {
   height: 100vh;
+  padding-top: 40px;
   background-image: url(/img/mainvisual.png);
   background-size: cover;
   background-position: center top;
   margin-bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .mainvisual .mainvisual-content {
+  height: 200px;
+  padding-top: 20px;
+  display: inline-block;
   text-align: center;
   color: white;
   font-family: 'Hiragino Kaku Gothic ProN';
+  border-top: solid white 2px;
+  border-bottom: solid white 2px;
 }
 
 .mainvisual .mainvisual-content .line1 {
@@ -110,5 +136,15 @@ img {
 
 .mainvisual .mainvisual-content .line1 .small {
   font-size: 2.5rem;
+}
+
+.mainvisual .mainvisual-content .line2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.mainvisual .mainvisual-content .line3 {
+  font-size: 2rem;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
