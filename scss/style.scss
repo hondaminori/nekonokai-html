@@ -44,6 +44,11 @@ img {
   display: flex;
 }
 
+.cat-name-thumbnail {
+  text-align: center;
+  line-height: 1.5rem;
+}
+
 /* ----------------------------------------
     共通 （ラッパー）
   ---------------------------------------- */
@@ -57,13 +62,34 @@ img {
     共通 （SNSロゴ）
   ---------------------------------------- */
 
-  .sns-logos {
-    width: 80px;
-    height: 30px;
-    display: flex;
-    justify-content: space-between;
+.sns-logos {
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
 
+}
+
+/* ----------------------------------------
+    共通 （セクション）
+  ---------------------------------------- */
+section {
+  margin-bottom: 60px;
+
+  .section-title {
+    // margin: 0 auto;
+    margin-bottom: 10px;
+    color: #CD853F;
+    font-size: 1.5rem;
+    display: inline-block;
+    border-bottom: 2px solid #CD853F;
   }
+}
+
+.title-area {
+  width: 100%;
+  text-align: center;
+}
 
 /* ----------------------------------------
     ヘッダー
@@ -101,6 +127,9 @@ img {
   }
 }
 
+/* ----------------------------------------
+    メインビジュアル
+  ---------------------------------------- */
 .mainvisual {
   height: 100vh; // あとで調査（vhが適切かどうか）
   padding-top: 40px;
@@ -144,6 +173,10 @@ img {
   }
 }
 
+
+/* ----------------------------------------
+    ウェルカムコンテンツ
+  ---------------------------------------- */
 .welcome {
   .welcome-title {
     text-align: center; // ブロック要素に対して「text」-alignっていいのか？
@@ -155,6 +188,7 @@ img {
   .welcome-contents {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60px;
 
     .welcome-content {
       img {
@@ -168,3 +202,65 @@ img {
     }
   }
 }
+
+/* ----------------------------------------
+    ネコ一覧
+  ---------------------------------------- */
+
+/* 無駄に入れ子が深いので、後ほど整理 */
+
+.cat-thumbnail-contents {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  .cat-thumbnail-content {
+    width: 240px;
+    height: 420px;
+    padding-top: 20px;
+    background-color: white;
+    
+    .cat-thumbnail-status {
+      width: 95px;
+      height: 20px;
+      top: 5px;
+      right: 25px;
+      display: block;
+      color: #CD853F;
+
+      background-color: #FFFAF0;
+      text-align: center;
+      position: absolute;
+    }
+
+    .cat-thumbnail-like {
+      padding-right: 20px;
+      color: red;
+      text-align: right;
+    }
+
+    .cat-thumbnail-img {
+      text-align: center;
+      position: relative;
+    }
+  }
+}
+
+.cat-thumbnail-name {
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.cat-thumbnail-desc {
+  width: 200px;
+  margin: 0 auto;
+  line-height: 1.5rem;
+}
+
+
+
+
