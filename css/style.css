@@ -225,11 +225,13 @@ section .section-title {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 .cat-thumbnail-contents .cat-thumbnail-content {
   width: 240px;
   height: 420px;
+  margin-top: 10px;
   padding-top: 20px;
   background-color: white;
 }
@@ -268,5 +270,10 @@ section .section-title {
   width: 200px;
   margin: 0 auto;
   line-height: 1.5rem;
+}
+
+.pagination {
+  text-align: center;
+  margin-bottom: 60px;
 }
 /*# sourceMappingURL=style.css.map */

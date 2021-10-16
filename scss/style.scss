@@ -215,10 +215,12 @@ section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 30px;
   
   .cat-thumbnail-content {
     width: 240px;
     height: 420px;
+    margin-top: 10px;
     padding-top: 20px;
     background-color: white;
     
@@ -261,6 +263,10 @@ section {
   line-height: 1.5rem;
 }
 
+.pagination {
+  text-align: center;
+  margin-bottom: 60px;
+}
 
 
 
