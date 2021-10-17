@@ -58,6 +58,11 @@ img {
   margin: 0 auto;
 }
 
+.inner-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /* ----------------------------------------
     共通 （SNSロゴ）
   ---------------------------------------- */
@@ -268,5 +273,13 @@ section {
   margin-bottom: 60px;
 }
 
+/* ----------------------------------------
+    検索条件
+  ---------------------------------------- */
+
+.search-conditions-contents {
+  height: 274px;
+  background-color: white;
+}
 
 

@@ -48,6 +48,11 @@ img {
   margin: 0 auto;
 }
 
+.inner-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /* ----------------------------------------
     共通 （SNSロゴ）
   ---------------------------------------- */
@@ -275,5 +280,13 @@ section .section-title {
 .pagination {
   text-align: center;
   margin-bottom: 60px;
+}
+
+/* ----------------------------------------
+    検索条件
+  ---------------------------------------- */
+.search-conditions-contents {
+  height: 274px;
+  background-color: white;
 }
 /*# sourceMappingURL=style.css.map */
