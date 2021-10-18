@@ -240,47 +240,94 @@
   <div class="search-conditions-contents inner-wrapper">
     <table>
       <tr>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+        <th class="col1"></th>
+        <th class="col2"></th>
+        <th class="col3"></th>
+        <th class="col4"></th>
+        <th class="col5"></th>
+        <th class="col6"></th>
+        <th class="col7"></th>
       </tr>
       <tr>
-        <td>性別</td>
+        <td class="color-font">性別</td>
         <td>
-          <input type="radio" name="gender" value="none" checked>希望なし
-          <input type="radio" name="gender" value="male">男の子
-          <input type="radio" name="gender" value="female">女の子
+          <input type="radio" name="gender" value="none" checked><label>希望なし</label>
+          <input type="radio" name="gender" value="male"><label>男の子</label>
+          <input type="radio" name="gender" value="female"><label>女の子</label>
         </td>
-        <td>色、模様</td>
-        <td>茶トラ</td>
-        <td>キジトラ</td>
-        <td>サバトラ</td>
+        <td></td> <!-- スペース -->
+        <td class="color-font">色、模様</td>
+        <td>
+          <input type="checkbox" name="color" value="chatora"><label>茶トラ</label>
+        </td>
+        <td>
+          <input type="checkbox" name="color" value="kijitora"><label>キジトラ</label>
+        </td>
+        <td>
+          <input type="checkbox" name="color" value="sabatora"><label>サバトラ</label>
+        </td>
       </tr>
       <tr>
-        <td>年齢</td>
-        <td>なし</td>
+        <td class="color-font">年齢</td>
+        <td>
+          <select class="form-text" name="age">
+            <option value="0">こだわりません</option>
+            <option value="1">生後3ヶ月以内</option>
+            <option value="2">生後6ヶ月以内</option>
+            <option value="3">生後1年以内</option>
+            <option value="4">生後3年以内</option>
+            <option value="5">生後5年以内</option>
+            <option value="99">生後5年以上</option>
+          </select>
+        </td>
+        <td></td>  <!-- スペース -->
         <td></td>
-        <td>クロ</td>
-        <td>シロ</td>
-        <td>ミケ</td>
+        <td>
+          <input type="checkbox" name="color" value="kuro"><label>クロ</label>
+        </td>
+        <td>
+          <input type="checkbox" name="color" value="shiro"><label>シロ</label>
+        </td>
+        <td>
+          <input type="checkbox" name="color" value="mike"><label>ミケ</label>
+        </td>
       </tr>
       <tr>
-        <td>状況</td>
-        <td>すべて</td>
+        <td class="color-font">状況</td>
+        <td>
+          <select class="form-text" name="status">
+            <option value="0">すべて</option>
+            <option value="1">募集中</option>
+            <option value="2">募集終了</option>
+            <option value="3">トライアル中</option>
+            <option value="4">里親様 確定済み</option>
+          </select>
+        </td>
+        <td></td> <!-- スペース -->
         <td></td>
-        <td>ハチワレ</td>
-        <td>サビ</td>
-        <td>長毛種</td>
+        <td>
+          <input type="checkbox" name="color" value="hachiware"><label>ハチワレ</label>
+        </td>
+        <td>
+          <input type="checkbox" name="color" value="sabi"><label>サビ</label>
+        </td>
+        <td>
+          <input type="checkbox" name="color" value="chomoshu"><label>長毛種</label>
+        </td>
       </tr>
       <tr>
-        <td>名前</td>
-        <td>部分一致</td>
+        <td class="color-font">名前</td>
+        <td>
+          <input class="form-text" type="text" placeholder=" 部分一致">
+        </td>
+        <td></td>  <!-- スペース -->
         <td></td>
-        <td>なんでも</td>
-        <td></td>
+        <td>
+          <a href="#">全選択</a>
+        </td>
+        <td>
+          <a href="#">全解除</a>
+        </td>
         <td></td>
       </tr>
     </table>

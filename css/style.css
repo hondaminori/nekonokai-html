@@ -29,6 +29,24 @@ img {
   vertical-align: bottom;
 }
 
+select {
+  -webkit-appearance: auto;
+     -moz-appearance: auto;
+          appearance: auto;
+}
+
+label {
+  padding-left: 5px;
+}
+
+.form-text {
+  width: 100%;
+  height: 1.6rem;
+  padding-left: 3px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+}
+
 .flex-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,6 +58,17 @@ img {
   line-height: 1.5rem;
 }
 
+.color-font {
+  font-size: 0.875rem;
+  color: #CD853F;
+}
+
+.color-font_bold {
+  font-size: 0.875rem;
+  color: #CD853F;
+  font-weight: bold;
+}
+
 /* ----------------------------------------
     共通 （ラッパー）
   ---------------------------------------- */
@@ -49,7 +78,7 @@ img {
 }
 
 .inner-wrapper {
-  width: 70%;
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -288,5 +317,45 @@ section .section-title {
 .search-conditions-contents {
   height: 274px;
   background-color: white;
+  padding-top: 5px;
+}
+
+.search-conditions-contents table {
+  width: 90%;
+  margin: 0 auto;
+  table-layout: fixed;
+}
+
+.search-conditions-contents table .col1 {
+  width: 10%;
+}
+
+.search-conditions-contents table .col2 {
+  width: 34%;
+}
+
+.search-conditions-contents table .col3 {
+  /* スペース */
+  width: 6%;
+}
+
+.search-conditions-contents table .col4 {
+  width: 11%;
+}
+
+.search-conditions-contents table .col5 {
+  width: 13%;
+}
+
+.search-conditions-contents table .col6 {
+  width: 13%;
+}
+
+.search-conditions-contents table .col7 {
+  width: 13%;
+}
+
+.search-conditions-contents table td {
+  height: 2.3rem;
 }
 /*# sourceMappingURL=style.css.map */
