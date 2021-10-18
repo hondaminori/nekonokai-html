@@ -47,6 +47,16 @@ label {
   padding-left: 5px;
 }
 
+button.large {
+  width: 366px;
+  height: 58px;
+  background: #CD853F;
+  border-radius: 7px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
 .form-text {
   width: 100%;
   height: 1.6rem;
@@ -304,13 +314,16 @@ section {
   ---------------------------------------- */
 .search-conditions-contents {
   height: 274px;
-  background-color: white;
   padding-top: 5px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 60px;
 
   table {
     // background-color: #CD853F;
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 25px auto;
+    // margin-bottom: 25px;
     table-layout: fixed;
 
     // 
