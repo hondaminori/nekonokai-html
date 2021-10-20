@@ -406,7 +406,18 @@ section .section-title {
   width: 100%;
   height: 200px;
   position: relative;
+}
+
+.section-trouble-img {
   background-image: url(/img/cat-trouble-img.png);
+}
+
+.section-activity-img {
+  background-image: url(/img/cat-activity-img.png);
+}
+
+.section-volunteer-img {
+  background-image: url(/img/cat-volunteer-img.png);
 }
 
 .section-title-label {
@@ -436,5 +447,20 @@ section .section-title {
   left: 0;
   margin: auto;
   font-size: 1.8rem;
+}
+
+.section-description_emphasized {
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Hiragino Kaku Gothic ProN';
+  color: #CD853F;
+  letter-spacing: 0.1rem;
+}
+
+.section-description_additional {
+  text-align: center;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
