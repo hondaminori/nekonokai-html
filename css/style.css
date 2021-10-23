@@ -480,7 +480,7 @@ footer {
 }
 
 .footer_left {
-  width: 50%;
+  width: 55%;
   height: 160px;
   color: white;
 }
@@ -491,7 +491,7 @@ footer {
 }
 
 .footer_right {
-  width: 50%;
+  width: 45%;
   height: 160px;
   color: white;
   text-align: right;
@@ -505,19 +505,30 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .footer-title {
   width: 100%;
+  margin-bottom: 10px;
   text-align: center;
   font-size: 1.5rem;
   color: white;
 }
 
 .addr-contact {
-  color: white;
+  width: 50%;
+}
+
+.addr-contact .addr {
+  margin-bottom: 10px;
+}
+
+.addr-contact .tel-email {
+  font-size: 1rem;
+}
+
+.copyright {
+  margin: 5px auto;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
