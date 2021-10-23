@@ -48,7 +48,7 @@ button.large {
   border-radius: 7px;
   font-size: 22px;
   font-weight: bold;
-  color: white;
+  color: #ffffff;
 }
 
 .form-text {
@@ -127,7 +127,7 @@ section .section-title {
 }
 
 .section-title_large h2 {
-  color: white;
+  color: #ffffff;
 }
 
 .section-title_small {
@@ -217,10 +217,10 @@ section .section-title {
   padding-top: 20px;
   display: inline-block;
   text-align: center;
-  color: white;
+  color: #ffffff;
   font-family: 'Hiragino Kaku Gothic ProN';
-  border-top: solid white 2px;
-  border-bottom: solid white 2px;
+  border-top: solid #ffffff 2px;
+  border-bottom: solid #ffffff 2px;
 }
 
 .mainvisual .mainvisual-content .line1 {
@@ -298,7 +298,7 @@ section .section-title {
   height: 420px;
   margin-top: 10px;
   padding-top: 20px;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .cat-thumbnail-contents .cat-thumbnail-content .cat-thumbnail-status {
@@ -348,7 +348,7 @@ section .section-title {
 .search-conditions-contents {
   height: 274px;
   padding-top: 5px;
-  background-color: white;
+  background-color: #ffffff;
   margin-bottom: 60px;
 }
 
@@ -429,7 +429,7 @@ section .section-title {
   bottom: 0;
   left: 0;
   margin: auto;
-  background-color: white;
+  background-color: #ffffff;
   opacity: 0.4;
   z-index: 10;
 }
@@ -440,7 +440,7 @@ section .section-title {
   vertical-align: middle;
   height: 3rem;
   z-index: 20;
-  color: white;
+  color: #ffffff;
   top: 0;
   right: 0;
   bottom: 0;
@@ -482,7 +482,7 @@ footer {
 .footer_left {
   width: 55%;
   height: 160px;
-  color: white;
+  color: #ffffff;
 }
 
 .footer_left ul {
@@ -493,7 +493,7 @@ footer {
 .footer_right {
   width: 45%;
   height: 160px;
-  color: white;
+  color: #ffffff;
   text-align: right;
 }
 
@@ -512,7 +512,7 @@ footer {
   margin-bottom: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: white;
+  color: #ffffff;
 }
 
 .addr-contact {

@@ -191,7 +191,7 @@ section {
     メインビジュアル
   ---------------------------------------- */
 .mainvisual {
-  height: 100vh; // あとで調査（vhが適切かどうか）
+  height: 100vh;
   padding-top: 40px;
   background-image: url(/img/mainvisual.png);
   background-size: cover;
@@ -201,7 +201,6 @@ section {
   justify-content: center;
 
   .mainvisual-content {
-    // margin: 0 auto; // justify-content が掛かってるから不要？
     width: 700px;
     height: 200px;
     padding-top: 20px;
@@ -493,7 +492,7 @@ footer {
   margin-bottom: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: white;
+  color: #ffffff;
 }
 
 .addr-contact {
