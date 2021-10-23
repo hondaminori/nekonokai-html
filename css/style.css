@@ -479,9 +479,26 @@ footer {
   background-color: #474747;
 }
 
-footer ul {
+.footer_left {
+  width: 50%;
+  height: 160px;
   color: white;
-  font-size: 1rem;
+}
+
+.footer_left ul {
+  width: 50%;
+  line-height: 1.25rem;
+}
+
+.footer_right {
+  width: 50%;
+  height: 160px;
+  color: white;
+  text-align: right;
+}
+
+.googlemap {
+  display: block;
 }
 
 .flex {
@@ -496,7 +513,7 @@ footer ul {
 .footer-title {
   width: 100%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
 }
 
